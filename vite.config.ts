@@ -185,5 +185,5 @@ export default defineConfig({
       deny: ["**/.*"],
     },
   },
-  base: "/alesouzatattoowebsite"
+  base: "/alesouzatattoowebsite/"
 });
