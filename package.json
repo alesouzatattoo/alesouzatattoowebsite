@@ -1,5 +1,5 @@
 {
-  "homepage": "https://alesouzatattoo.github.io/alesouzatattoowebsite/",
+  "homepage": "https://alesouzatattoo.github.io/alesouzatattoowebsite",
   "name": "alesouzatattoowebsite",
   "version": "1.0.0",
   "type": "module",
@@ -10,7 +10,7 @@
     "start": "NODE_ENV=production node dist/index.js",
     "preview": "vite preview --host",
     "check": "tsc --noEmit",
-    "predeploy": "npm run build",
+    "predeploy": "npm run dev",
     "deploy": "gh-pages -d dist",
     "format": "prettier --write ."
   },
